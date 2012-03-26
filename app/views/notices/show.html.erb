@@ -1,0 +1,16 @@
+<section id="notice-board"></section>
+<a href="#" class="add-new-item">Add a new item</a>
+<div class="app-details">
+	<h1>Pusher Notice Board</h1>
+	<p>Made by <a href="http://twitter.com/cjbell88">@cjbell88</a></p>
+	<p>
+		App URL: 
+		<input type="text" name="url" readonly="readonly" class="url-bar" value="<%= request.url %>" />
+	</p>
+</div>
+<script>
+	var token = "<%=@notice.token%>"; 
+	$(function(){
+		NoticeBoard.init(token);
+	});
+</script>

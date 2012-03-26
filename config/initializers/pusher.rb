@@ -1,5 +1,5 @@
 require 'pusher'
 
-Pusher.app_id = '5493'
-Pusher.key = '511a5abb7486107ce643'
-Pusher.secret = '012e3a040f1f7c25ef24'
+Pusher.app_id = '17525'
+Pusher.key = '23a8a19850a9e1bb20a8'
+Pusher.secret = 'b7e7d7d0eda19292f440'
