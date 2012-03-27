@@ -1,3 +1,15 @@
 == Pusher Notice Board
 
-More coming soon...
+An ultra simple `Stickies`-esque application that uses Ruby on Rails and Pusher.
+
+Please visit the demo over at: http://severe-fog-9903.herokuapp.com/ to see a working version of the application. 
+
+== Acknowledgements
+
+Some of this source code is based on the Pusher To Do demo located at: https://github.com/pusher/backbone-todo-app/ - it provides a great starting point for Pusher / REST integration of your Rails apps.
+
+== Caveats
+
+Apologies for any shite coding, this is my first proper Rails project (except demos etc). Next time it will be better, promise. 
+
+
